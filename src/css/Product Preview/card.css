@@ -1,6 +1,6 @@
 .card
 {
-   max-width: 343px;
+   max-width: 21.43rem;
    display: flex;
    flex-wrap: wrap;
 }
@@ -22,7 +22,7 @@
 {
     .card 
     {
-        max-width: 600px;
+        max-width: 37.5rem;
     }
     .img-mobile {
         display: none;

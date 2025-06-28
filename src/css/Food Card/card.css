@@ -1,0 +1,87 @@
+.card
+{
+    max-width: 20.4rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 0.875rem;
+}
+
+.img-mobile, .img-tablet, .img-desktop {
+    width: 100%;
+    border-radius: .5rem;
+}
+.img-mobile
+{
+    display: block;
+}
+
+.img-tablet, .img-desktop
+{
+    display: none;
+}
+
+
+.content
+{
+    background-color: #FCF8F6;
+}
+
+.btn 
+{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: .81rem 1.75rem;
+    margin-top: -1.5rem;
+    position: relative;
+    border-radius: 62rem;
+    border:solid 1px #AD8A85;
+    font-family: inherit;
+    gap:.5rem;
+    font-size: inherit;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+.subhead 
+{
+    color: #87635A;
+    margin-bottom: .25rem;
+}
+
+.title 
+{
+    color: #260F08;
+    font-weight: 600;
+    font-size: 1.14em;
+    margin-bottom: .25rem;
+}
+
+.num {
+    color:#C73B0F;
+    font-weight: 600;
+    font-size: 1.14em;
+}
+
+
+@media(min-width:768px)
+{
+    .img-mobile {
+        display: none;
+    }
+
+    .img-tablet {
+        display: block;
+    }
+}
+
+@media(min-width:1200px)
+{
+    .img-tablet {
+        display: none;
+    }
+
+    .img-desktop {
+        display: block;
+    }
+}
