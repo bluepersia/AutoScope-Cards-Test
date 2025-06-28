@@ -2,7 +2,7 @@ import fluidScale from 'fluid-scale';
 
 fluidScale ();
 
-const pages = ['index.html', 'food-card.html'];
+const pages = ['index.html', 'food-card.html', 'product-card.html'];
 
 const path = window.location.pathname;
 const fileName = path.substring(path.lastIndexOf('/') + 1);
